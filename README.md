@@ -1,7 +1,7 @@
 # Projeto base frontend (lite)
 
 ## Copiar o projeto
-----
+
 Para iniciar o projeto basta fazer o git clone do repositório com o comando: 
 
 ``` 
@@ -9,7 +9,7 @@ git clone https://github.com/tzadoque/base-project-frontend-lite
 ```
 
 ## Instalar módulos
-----
+
 
 Logo após você irá instalar os módulos necessários com um dos comandos:
 ```
@@ -21,7 +21,7 @@ npm install
 ```
 
 ## Iniciar servidor local
-----
+
 O servidor que vem instalado é o live-server, para iniciá-lo basta utilizar o comando:
 ```
 npx live-server
@@ -29,7 +29,7 @@ npx live-server
 Fique a vontade para usar outro servidor da sua preferência.
 
 ## Scripts
----
+
 Apenas dois scripts estão criados por padrão, o do ```webpack``` e do ```sass```. Quando algum dos dois são rodados eles geram automaticamente a pasta dist, por isso ela não vem no repositório.
 
 ```
@@ -40,5 +40,5 @@ Apenas dois scripts estão criados por padrão, o do ```webpack``` e do ```sass`
 ```
 
 ## Lite?
----
+
 Então... Tentei criar um projeto base bem elaborado, com automação com gulp, babel, otimização de imagens, porém ficou bem pesado para rodar no meu pc, então resolvi criar esse projeto que não utiliza gulp e seus scripts são rodados individualmente.
