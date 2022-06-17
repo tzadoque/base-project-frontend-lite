@@ -1,0 +1,33 @@
+{
+  "name": "base-project-frontend-lite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Zadoque Teófilo",
+    "url": "https://github.com/tzadoque",
+    "email": "zadoque.dev@gmail.com"
+  },
+  "scripts": {
+    "scss": "sass --watch src/scss/style.scss:dist/css/style.css --style compressed",
+    "webpack": "webpack -w"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3",
+    "core-js": "^3.3.2",
+    "css-loader": "^3.2.0",
+    "regenerator-runtime": "^0.13.3",
+    "style-loader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "live-server": "^1.2.2",
+    "sass": "^1.52.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9"
+  }
+}

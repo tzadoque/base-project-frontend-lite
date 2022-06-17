@@ -1,0 +1,52 @@
+// color variables definition
+$light: #f2f2f2;
+
+$custom-colors: (
+  'light': $light,
+  'transparent': #fff0,
+);
+
+// spacers variable definition
+$spacer: 1rem;
+$custom-spacers: (
+  '6': $spacer * 0.375,
+  '12': $spacer * 0.75,
+  '32': $spacer * 2,
+  '40': $spacer * 2.5,
+  '56': $spacer * 3.5,
+  '64': $spacer * 4,
+  '80': $spacer * 5,
+  '96': $spacer * 6,
+  '108': $spacer * 8,
+  '324': $spacer * 24,
+);
+
+// font features variables definition
+
+$font-family-sans-serif: 'Lato', sans-serif;
+$font-sizes: (
+  10: 10px,
+  12: 12px,
+  14: 14px,
+  16: 16px,
+  18: 18px,
+  20: 20px,
+  24: 24px,
+  32: 32px,
+  40: 40px,
+  72: 72px,
+);
+
+$font-families: (
+  lato: 'Lato',
+);
+
+$font-weight-thin: 100;
+$font-weight-extra-light: 200;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semi-bold: 600;
+$font-weight-bold: 700;
+$font-weight-extra-bold: 800;
+$font-weight-black: 900;
